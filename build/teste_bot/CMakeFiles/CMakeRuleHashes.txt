@@ -1,0 +1,2 @@
+# Hashes of file build rules.
+f07bd3f7a0747a618ba0c6d093b67393 CMakeFiles/teste_bot_uninstall

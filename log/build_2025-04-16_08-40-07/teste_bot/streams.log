@@ -1,0 +1,64 @@
+[0.041s] Invoking command in '/home/lactec-estagiario/test_bot_ws/src/teste-robot/build/teste_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/lactec-estagiario/test_bot_ws/src/teste-robot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lactec-estagiario/test_bot_ws/src/teste-robot/install/teste_bot
+[0.920s] -- The C compiler identification is GNU 13.3.0
+[1.473s] -- The CXX compiler identification is GNU 13.3.0
+[1.619s] -- Detecting C compiler ABI info
+[1.910s] -- Detecting C compiler ABI info - done
+[1.927s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.928s] -- Detecting C compile features
+[1.929s] -- Detecting C compile features - done
+[1.961s] -- Detecting CXX compiler ABI info
+[2.148s] -- Detecting CXX compiler ABI info - done
+[2.166s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.167s] -- Detecting CXX compile features
+[2.168s] -- Detecting CXX compile features - done
+[2.276s] -- Found ament_cmake: 2.7.2 (/opt/ros/rolling/share/ament_cmake/cmake)
+[2.516s] -- Found Python3: /home/lactec-estagiario/miniconda3/bin/python3 (found version "3.12.9") found components: Interpreter 
+[2.625s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.835s] -- Found ament_lint_auto: 0.19.1 (/opt/ros/rolling/share/ament_lint_auto/cmake)
+[3.343s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.370s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.370s] -- Configured cppcheck include dirs: 
+[3.371s] -- Configured cppcheck exclude dirs and/or files: 
+[3.391s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.391s] -- Configured cpplint exclude dirs and/or files: 
+[3.394s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.395s] -- Configured 'flake8' exclude dirs and/or files: 
+[3.401s] -- Added test 'lint_cmake' to check CMake code style
+[3.405s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.423s] -- Added test 'uncrustify' to check C / C++ code style
+[3.424s] -- Configured uncrustify additional arguments: 
+[3.428s] -- Added test 'xmllint' to check XML markup files
+[3.442s] -- Configuring done (3.4s)
+[3.462s] -- Generating done (0.0s)
+[3.464s] -- Build files have been written to: /home/lactec-estagiario/test_bot_ws/src/teste-robot/build/teste_bot
+[3.472s] Invoked command in '/home/lactec-estagiario/test_bot_ws/src/teste-robot/build/teste_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/lactec-estagiario/test_bot_ws/src/teste-robot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lactec-estagiario/test_bot_ws/src/teste-robot/install/teste_bot
+[3.478s] Invoking command in '/home/lactec-estagiario/test_bot_ws/src/teste-robot/build/teste_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/lactec-estagiario/test_bot_ws/src/teste-robot/build/teste_bot -- -j8 -l8
+[3.545s] Invoked command in '/home/lactec-estagiario/test_bot_ws/src/teste-robot/build/teste_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/lactec-estagiario/test_bot_ws/src/teste-robot/build/teste_bot -- -j8 -l8
+[3.560s] Invoking command in '/home/lactec-estagiario/test_bot_ws/src/teste-robot/build/teste_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/lactec-estagiario/test_bot_ws/src/teste-robot/build/teste_bot
+[3.573s] -- Install configuration: ""
+[3.574s] -- Execute custom install script
+[3.574s] -- Symlinking: /home/lactec-estagiario/test_bot_ws/src/teste-robot/install/teste_bot/share/teste_bot/config/bridge.yaml
+[3.588s] -- Symlinking: /home/lactec-estagiario/test_bot_ws/src/teste-robot/install/teste_bot/share/teste_bot/description/gazebo_control.xacro
+[3.603s] -- Symlinking: /home/lactec-estagiario/test_bot_ws/src/teste-robot/install/teste_bot/share/teste_bot/description/inertial_macros.xacro
+[3.617s] -- Symlinking: /home/lactec-estagiario/test_bot_ws/src/teste-robot/install/teste_bot/share/teste_bot/description/robot.urdf
+[3.632s] -- Symlinking: /home/lactec-estagiario/test_bot_ws/src/teste-robot/install/teste_bot/share/teste_bot/description/robot.urdf.xacro
+[3.645s] -- Symlinking: /home/lactec-estagiario/test_bot_ws/src/teste-robot/install/teste_bot/share/teste_bot/description/robot_core.xacro
+[3.658s] -- Symlinking: /home/lactec-estagiario/test_bot_ws/src/teste-robot/install/teste_bot/share/teste_bot/launch/rsp.launch.py
+[3.673s] -- Symlinking: /home/lactec-estagiario/test_bot_ws/src/teste-robot/install/teste_bot/share/teste_bot/launch/teste_bot.launch.py
+[3.686s] -- Symlinking: /home/lactec-estagiario/test_bot_ws/src/teste-robot/install/teste_bot/share/teste_bot/worlds/empty.world
+[3.700s] -- Symlinking: /home/lactec-estagiario/test_bot_ws/src/teste-robot/install/teste_bot/share/ament_index/resource_index/package_run_dependencies/teste_bot
+[3.715s] -- Symlinking: /home/lactec-estagiario/test_bot_ws/src/teste-robot/install/teste_bot/share/ament_index/resource_index/parent_prefix_path/teste_bot
+[3.730s] -- Symlinking: /home/lactec-estagiario/test_bot_ws/src/teste-robot/install/teste_bot/share/teste_bot/environment/ament_prefix_path.sh
+[3.745s] -- Symlinking: /home/lactec-estagiario/test_bot_ws/src/teste-robot/install/teste_bot/share/teste_bot/environment/ament_prefix_path.dsv
+[3.758s] -- Symlinking: /home/lactec-estagiario/test_bot_ws/src/teste-robot/install/teste_bot/share/teste_bot/environment/path.sh
+[3.770s] -- Symlinking: /home/lactec-estagiario/test_bot_ws/src/teste-robot/install/teste_bot/share/teste_bot/environment/path.dsv
+[3.782s] -- Symlinking: /home/lactec-estagiario/test_bot_ws/src/teste-robot/install/teste_bot/share/teste_bot/local_setup.bash
+[3.796s] -- Symlinking: /home/lactec-estagiario/test_bot_ws/src/teste-robot/install/teste_bot/share/teste_bot/local_setup.sh
+[3.808s] -- Symlinking: /home/lactec-estagiario/test_bot_ws/src/teste-robot/install/teste_bot/share/teste_bot/local_setup.zsh
+[3.825s] -- Symlinking: /home/lactec-estagiario/test_bot_ws/src/teste-robot/install/teste_bot/share/teste_bot/local_setup.dsv
+[3.841s] -- Symlinking: /home/lactec-estagiario/test_bot_ws/src/teste-robot/install/teste_bot/share/teste_bot/package.dsv
+[3.856s] -- Symlinking: /home/lactec-estagiario/test_bot_ws/src/teste-robot/install/teste_bot/share/ament_index/resource_index/packages/teste_bot
+[3.872s] -- Symlinking: /home/lactec-estagiario/test_bot_ws/src/teste-robot/install/teste_bot/share/teste_bot/cmake/teste_botConfig.cmake
+[3.886s] -- Symlinking: /home/lactec-estagiario/test_bot_ws/src/teste-robot/install/teste_bot/share/teste_bot/cmake/teste_botConfig-version.cmake
+[3.900s] -- Symlinking: /home/lactec-estagiario/test_bot_ws/src/teste-robot/install/teste_bot/share/teste_bot/package.xml
+[3.918s] Invoked command in '/home/lactec-estagiario/test_bot_ws/src/teste-robot/build/teste_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/lactec-estagiario/test_bot_ws/src/teste-robot/build/teste_bot

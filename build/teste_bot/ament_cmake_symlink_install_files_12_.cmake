@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_files("/home/lactec-estagiario/test_bot_ws/src/teste-robot" FILES "/home/lactec-estagiario/test_bot_ws/src/teste-robot/build/teste_bot/ament_cmake_core/teste_botConfig.cmake" "/home/lactec-estagiario/test_bot_ws/src/teste-robot/build/teste_bot/ament_cmake_core/teste_botConfig-version.cmake" "DESTINATION" "share/teste_bot/cmake")
